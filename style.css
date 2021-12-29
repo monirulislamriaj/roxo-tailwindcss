@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.cwc-transition {
+    @apply transition-all duration-300 ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-bold;
+}
+
+p {
+    @apply text-boom-400;
+}
+
+.btn-nav {
+    @apply capitalize text-white border rounded-full px-10 py-3.5 block bg-boom-500 text-sm;
+}
+
+.btn {
+    @apply capitalize text-white border-boom-200 py-5 px-9 font-semibold;
+}
+
+.brand,
+.content,
+.content,
+.view {
+    @apply cwc-transition;
+}
+
+.brand:hover {
+    @apply shadow-2xl;
+}
+
+.brand:hover>.content {
+    @apply pb-20;
+}
+
+.brand:hover>.content>.view {
+    @apply translate-y-0 opacity-100;
+}
+
+.view:hover {
+    @apply underline;
+}
+
+#mainMenu li {}
+
+#mainMenu li:last-child {
+    @apply mr-0;
+}
+
+#mainMenu li a {
+    @apply block px-3.5 py-3.5 text-lg;
+}
+
+.stickyNav {
+    @apply cwc-transition bg-white py-3 !important;
+}
+
+.stickyNav #mainMenu li a:hover {
+    @apply text-red-600 cwc-transition;
+}
+
+.Expertise li {
+    @apply mb-3 text-2xl text-boom-100 font-light capitalize font-Josefin;
+}
+
+.content {
+    @apply mt-3;
+}
+
+.content h3 {
+    @apply text-xl mb-3 text-boom-500 uppercase font-medium;
+}
+
+.content p {
+    @apply text-lg text-boom-100 capitalize mb-5 font-light font-Josefin;
+}
+
+.memberSocial li {
+    @apply mr-3;
+}
+
+.memberSocial li a {
+    @apply text-boom-100;
+}
+
+.memberSocial li a svg {
+    @apply w-4 h-4;
+}
+
+p.blogContent {
+    @apply text-boom-400 text-base font-normal;
+}
+
+.description p {
+    @apply mb-8 font-Josefin font-normal;
+}
+
+.blogDetails p {
+    @apply mb-4 font-Josefin;
+}
+
+.blogDetails ol {
+    @apply list-decimal ml-8;
+}
+
+.blogDetails li {
+    @apply text-boom-400 font-Josefin;
+}
+
+.blogDetails li:last-child {
+    @apply mb-4;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+</head>
+
+<body class="font-exta-montserrat">
+    <header class="bg-white w-full fixed z-30 ">
+        <div class="container px-4">
+            <nav id="mainNav" class="md:w-full flex justify-between items-center py-5 cwc-transition flex-wrap md:flex-nowrap cwc-transition">
+                <div class="flex justify-between items-center w-full md:w-auto">
+                    <a href="#" class="logo">
+                        <img class="" src="/image/logo.png" alt="image">
+                    </a>
+                    <a id="mobileMenu" href="#" class="md:hidden">
+                        <span class="hidden">mobile menu</span>
+                        <svg class="h-6" xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+                        </svg>
+                        <svg class="h-8 hidden " xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div id="mainMenu" class="hidden md:flex justify-end items-center sm:w-full md:w-auto sm:text-center">
+                    <ul class="flex text-center text-base justify-center">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                    <a class="sm:ml-8 text-center w-full md:w-auto btn-nav focus:bg-blue-700 focus:ring-1 focus:outline-none focus:ring-blue-700 opacity-80 cwc-transition hover:opacity-100" href="contact.html">
+                        <span class="py-1 block">Get In Touch</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="bg-boom-300 pt-36 pb-24">
+            <div class="container">
+                <div class="grid md:grid-cols-2 px-12 md:px-0">
+                    <div class="lg:mr-12 ">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl text-boom-100 leading-normal">Don’t be shy. Say
+                            <span class="text-boom-500">Hello.</span>
+                        </h1>
+                    </div>
+                    <div class="mt-6">
+                        <h4 class="text-2xl font-light mb-14 tracking-widest uppercase text-boom-100">TELL US ABOUT YOUR PROJECT
+                        </h4>
+                        <form action="#" method="POST">
+                            <div class=" overflow-hidden">
+                                <div class="">
+                                    <div class="grid grid-cols-6 gap-6">
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <input type="text" name="first_name" id="first_name" autocomplete="given-name" placeholder="First_Name" class="font-Josefin py-4 block w-full sm:text-sm bg-boom-300 focus:border-gray-300 border-b-2 border-red-300 outline-none">
+                                        </div>
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <input type="text" name="last_name" id="last_name" placeholder="Last_Name" autocomplete="family-name" class="font-Josefin py-4 block w-full sm:text-sm bg-boom-300 focus:border-gray-300 border-b-2 border-red-300 outline-none">
+                                        </div>
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <input type="text" name="email_address" id="email_address" placeholder="Email" autocomplete="email" class="font-Josefin py-4 block w-full sm:text-sm  bg-boom-300 focus:border-gray-300 border-b-2 border-red-300 outline-none">
+                                        </div>
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <select id="country" name="country" class="mt-1 font-Josefin py-4 block w-full sm:text-sm  bg-boom-300 focus:border-gray-300 border-b-2 border-red-300 outline-none text-gray-500">
+                                                <option class="font-Josefin text-base bg-boom-300">United States
+                                                </option>
+                                                <option class="font-Josefin text-base bg-boom-300">Canada</option>
+                                                <option class="font-Josefin text-base bg-boom-300">Mexico</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <textarea name="massege" id="massege" placeholder="About the Project" cols="75" rows="10" class="font-Josefin bg-boom-300 focus:border-gray-300 border-b-2 border-red-300 outline-none"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="py-3">
+                                    <button type="submit" class="btn inline-flex justify-center text-sm font-medium text-white bg-red-300 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 border-red-300 cwc-transition">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-boom-200 text-white pt-28 pb-28">
+        <div class="container px-3.5 ">
+            <div class=" mb-12 justify-center flex md:inline-flex grid md:grid-cols-5">
+                <a href="#">
+                    <img src="/image/logo-footer.png" alt=" ">
+                </a>
+            </div>
+            <div class="grid lg:grid-cols-5 md:grid-cols-2 md:text-left lg:gap-0 gap-8 text-center">
+                <div>
+                    <h5 class="text-lg mb-8 font-semibold ">Contact Info</h5>
+                    <p class="text-white block mb-3 leading-8 font-normal font-Josefin">713 Elmwood St.<br> Prior Lake, MN 55372
+                    </p>
+                    <ul>
+                        <li><a class="block mb-3 hover:underline" href="tel:409-896-1444">409-896-1444</a></li>
+                        <li><a class="block hover:underline" href="mailto:info@roxo.co">info@roxo.co</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-lg mb-8 font-semibold">Sitemap</h5>
+                    <ul>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Aboutb Company</a>
+                        </li>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Projects</a>
+                        </li>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Blog</a>
+                        </li>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-lg mb-8 font-semibold">Social Media</h5>
+                    <ul>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Medium</a>
+                        </li>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Behance</a>
+                        </li>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Dribbble</a>
+                        </li>
+                        <li><a class="block mb-3 leading-8 text-base capitalize font-Josefin hover:underline" href="#">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-lg mb-8 font-semibold">We help brands:</h5>
+                    <p class="text-white block mb-3 leading-8 font-normal font-Josefin">develop design solutions <br> produce valuable cultural content <br> create fresh brand experience
+                    </p>
+                </div>
+                <div class="lg:text-center mt-10 md:mt-0 ">
+                    <a id="backToTop" class="flex md:justify-start lg:justify-center justify-center mb-4 " href="#">
+                        <img src="/image/to-top.svg" alt=" ">
+                    </a>
+                    <p class="md:text-left lg:text-center text-white block mb-3 leading-8 font-normal font-Josefin ">I want to <br> visit again
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
